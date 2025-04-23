@@ -36,7 +36,8 @@ class HomePage extends StatelessWidget {
               MaterialPageRoute(
                 builder: (_) => DetailsPage(
                   courseName: "Mobile App Development",
-                  imageUrl: "assets/Course.png",
+                  imageUrl: "assets/Course.png", // Image path
+                  isAsset: true, // Pass the flag as true
                 ),
               ),
             );
